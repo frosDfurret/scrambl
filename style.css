@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Syne+Mono&display=swap');
+
+body {
+  padding: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+  background-color: #17191A;
+  color: white;
+  font-family: "Oxygen Mono";
+}
+
+#footer {
+  padding-top: 10px;
+  color: #333637;
+}
+
+#footer > a {
+  color: #333637;
+}
+
+select {
+  font-family: "Oxygen Mono";
+  background-color: rgba(0,0,0,0.2);
+  color: #9e9e9e;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 2px;
+  width: 125px;
+}
+
+button {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  border-radius: 100px;
+  width: 200px;
+  padding: 2px;
+  font-size: 25px;
+  font-family: "Oxygen Mono";
+  background-color: #2C2E30;
+  color: white;
+}
+
+textarea {
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#urloptions > input {
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+  border: 1px solid rgb(118,118,118);
+  width: 250px;
+  padding: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+}
+
+#logo {
+  font-family: "Syne Mono";
+  font-size: 64px;
+  cursor: pointer;
+}
+
+#options {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#urloptions, #fileoptions, #lock, #content, #textcontent, #urlcontent, #filecontent {
+  display: none;
+}
+
+#url {
+  color: #D3F3EE;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+#keyinput {
+  color: white;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 10px;
+  border: 1px solid rgb(118,118,118);
+  width: 250px;
+  padding: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+}
+
+@media only screen and (max-device-width: 640px) {
+  body {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  #logo {
+    font-size: 13vw;
+  }
+}

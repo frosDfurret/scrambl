@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>𝚜𝚌𝚛𝚊𝚖𝚋𝚕</title>
+    <link rel="icon" href="/favicon.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="/crypto-js.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="logo" onclick="window.open('https://www.youtube.com/watch?v=yyi55ZrpJ0E','_blank')">scrambl 🍳</div>
+    <select id="type" onchange="changetype(this.options[this.selectedIndex].value)">
+      <option value="text">Text</option>
+      <option value="url">URL</option>
+      <option value="file">File</option>
+    </select>
+    <div id="options">
+      <div id="textoptions">
+        <textarea id="textinput" placeholder="text to scrambl goes here"></textarea>
+      </div>
+      <div id="urloptions">
+        <input id="urlinput" type="url" placeholder="https://www.frosdfurret.xyz">
+      </div>
+      <div id="fileoptions">
+        Coming soon...
+      </div>
+    <br>
+    <input id="keyinput" type="password" placeholder="key (12 chars or more)" required>
+    </div>
+    <button id="submit" onclick="copy()">copy url</button>
+    <div id="footer">
+      powered by <a href="https://code.google.com/archive/p/crypto-js/" target="_blank">crypto-js</a> | <a href="/about.html" target="_blank">about</a>
+    </div>
+  </body>
+</html>
